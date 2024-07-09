@@ -4,8 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load the trained model
-model = load_model('/content/drive/MyDrive/Gender_Classification_by_Names/genderByName_model.h5')  # Replace with the actual path to your model
-
+model = load_model('/content/drive/MyDrive/Gender_Classification_by_Names/genderByName_model.h5') 
 # Character index and parameters
 char_index = {
   'a': 0,
