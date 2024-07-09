@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gender Prediction</title>
+  </head>
+  <body>
+    <h1>Gender Prediction from Name</h1>
+    <form action="/predict" method="post">
+      <label for="name">Enter Name:</label>
+      <input type="text" id="name" name="name" required />
+      <button type="submit">Predict Gender</button>
+    </form>
+    <h2>{{ prediction_text }}</h2>
+  </body>
+</html>
